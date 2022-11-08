@@ -15,7 +15,7 @@ lnomatch equ $-nomatch
 
 n db 0xa                   ;переменная для переноса строки
 
-SECTION .bss         ;для НЕинициализированных данных
+SECTION .bss               ;для НЕинициализированных данных
 filetoopen: resb 100
 
 input: resb 100               ;что ищем
